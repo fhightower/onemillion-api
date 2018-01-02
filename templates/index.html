@@ -1,0 +1,25 @@
+{% include 'head.html' %}
+
+{% include 'header.html' %}
+
+<br>
+
+<div style="background-color: #fafafa;">
+    <div class="row">
+        {% if message %}
+            <span style="color: red;">{{ message }}</span>
+            <br><br>
+        {% endif %}
+        <div style="background-color: #fafafa;">
+            <div class="row">
+                <form action="{{ url_for('get_onemillion') }}" method="post">
+                    <input type="text" name="domain">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
+
