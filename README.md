@@ -1,4 +1,4 @@
-# onemillion API
+# Onemillion API/UI
 
 View it at [onemillion.hightower.space](http://onemillion.hightower.space).
 
