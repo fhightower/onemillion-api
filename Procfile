@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: gunicorn onemillion_api:app --log-file=-
