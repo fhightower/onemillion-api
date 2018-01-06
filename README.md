@@ -1,5 +1,7 @@
 # Onemillion API/UI
 
+[![Build Status](https://travis-ci.org/fhightower/onemillion-api.svg?branch=master)](https://travis-ci.org/fhightower/onemillion-api)
+
 View it at [onemillion.hightower.space](http://onemillion.hightower.space).
 
 API/UI Interface to check if a domain is in a top million domain lists from Alexa or Cisco. This project is built on the [onemillion](https://github.com/fhightower/onemillion) python package.
